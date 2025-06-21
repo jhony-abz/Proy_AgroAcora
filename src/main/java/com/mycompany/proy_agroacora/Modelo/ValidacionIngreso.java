@@ -1,10 +1,17 @@
 package com.mycompany.proy_agroacora.Modelo;
 
+import com.mycompany.proy_agroacora.Modelo.UsuarioDAO;
+
 public class ValidacionIngreso {
 
-    private static final String CONTRASENA_CORRECTA = "agroACORA";
+    private UsuarioDAO usuarioDAO;
 
-    public boolean validarContrasena(String contrasena) {
-        return CONTRASENA_CORRECTA.equals(contrasena);
+    public ValidacionIngreso() {
+        usuarioDAO = new UsuarioDAO();
+    }
+//Función que evalúa los datos de la ventana con el DAO
+
+    public boolean validarUsuario(String usuario, String contrasena) {
+        return usuarioDAO.verificarUsuario(usuario, contrasena);
     }
 }

@@ -1,6 +1,7 @@
 package com.mycompany.proy_agroacora.Vista;
 
 public class VenModAlmacen extends javax.swing.JPanel {
+//Ventana para manejar el módulo de pedidos - Pendiente en su totalidad
 
     public VenModAlmacen() {
         initComponents();

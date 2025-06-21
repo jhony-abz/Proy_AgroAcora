@@ -1,9 +1,13 @@
 package com.mycompany.proy_agroacora.Vista;
 
+import javax.swing.JFrame;
+
 public class VenPedidos extends javax.swing.JFrame {
+//Ventana para manejar los pedidos realizados - Pendiente
 
     public VenPedidos() {
         initComponents();
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }
 
     @SuppressWarnings("unchecked")

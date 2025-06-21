@@ -3,6 +3,7 @@ package com.mycompany.proy_agroacora.Vista;
 import java.awt.BorderLayout;
 
 public class VenMenu extends javax.swing.JFrame {
+//Ventana principal con JPanel que varía acorde a las ventanas a utilizar
 
     VenPresentaci0n venPres = new VenPresentaci0n();
     VenModPedido venMPed = new VenModPedido();
@@ -10,6 +11,7 @@ public class VenMenu extends javax.swing.JFrame {
 
     public VenMenu() {
         initComponents();
+        //Utilidades para mostrar las otras ventanas dentro del JPanel
         venPres.setSize(720, 570);
         venPres.setLocation(0, 0);
         contenido.removeAll(); // Limpia el contenido actual
@@ -28,6 +30,7 @@ public class VenMenu extends javax.swing.JFrame {
         BotAlmacen = new javax.swing.JButton();
         BotSalir = new javax.swing.JButton();
         contenido = new javax.swing.JPanel();
+        BotClientes = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -80,6 +83,16 @@ public class VenMenu extends javax.swing.JFrame {
             .addGap(0, 0, Short.MAX_VALUE)
         );
 
+        BotClientes.setBackground(new java.awt.Color(169, 193, 122));
+        BotClientes.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        BotClientes.setForeground(new java.awt.Color(255, 255, 255));
+        BotClientes.setText("Clientes");
+        BotClientes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotClientesActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -94,7 +107,8 @@ public class VenMenu extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(BotAlmacen, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(BotPedidos, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(BotSalir, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(BotSalir, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(BotClientes, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(contenido, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -107,9 +121,11 @@ public class VenMenu extends javax.swing.JFrame {
                 .addComponent(BotPedidos, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(66, 66, 66)
                 .addComponent(BotAlmacen, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(63, 63, 63)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 61, Short.MAX_VALUE)
+                .addComponent(BotClientes, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(59, 59, 59)
                 .addComponent(BotSalir, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(197, Short.MAX_VALUE))
+                .addGap(100, 100, 100))
             .addComponent(contenido, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
@@ -126,7 +142,7 @@ public class VenMenu extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+    //Función para mostrar la ventana VenPedidos
     private void BotPedidosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotPedidosActionPerformed
         venMPed.setSize(720, 570);
         venMPed.setLocation(0, 0);
@@ -140,7 +156,7 @@ public class VenMenu extends javax.swing.JFrame {
     private void BotSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotSalirActionPerformed
         System.exit(0);
     }//GEN-LAST:event_BotSalirActionPerformed
-
+    //Funcion para mostrar la ventana VenAlmacen - Pendiente a codificar
     private void BotAlmacenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotAlmacenActionPerformed
         venMAlm.setSize(720, 570);
         venMAlm.setLocation(0, 0);
@@ -149,10 +165,17 @@ public class VenMenu extends javax.swing.JFrame {
         contenido.revalidate();
         contenido.repaint();
     }//GEN-LAST:event_BotAlmacenActionPerformed
+    //Función que apertura la ventana VenClientes de manera independiente
+    private void BotClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotClientesActionPerformed
+        VenClientes venClientes = new VenClientes();
+        new com.mycompany.proy_agroacora.Controlador.ControlClientes(venClientes);
+        venClientes.setVisible(true);
+    }//GEN-LAST:event_BotClientesActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BotAlmacen;
+    private javax.swing.JButton BotClientes;
     private javax.swing.JButton BotPedidos;
     private javax.swing.JButton BotSalir;
     private javax.swing.JPanel contenido;
