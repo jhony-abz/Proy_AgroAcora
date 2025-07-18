@@ -49,4 +49,17 @@ public class DetallePedidoDAO {
         }
         return lista;
     }
+
+    public boolean eliminarDetallesPorIdPedido(int idPedido) {
+        String sql = "DELETE FROM detalle_pedido WHERE id_pedido = ?";
+        try (PreparedStatement ps = con.prepareStatement(sql)) {
+            ps.setInt(1, idPedido);
+            ps.executeUpdate();
+            return true;
+        } catch (SQLException e) {
+            System.err.println("Error al eliminar detalles: " + e.getMessage());
+            return false;
+        }
+    }
+
 }

@@ -1,6 +1,10 @@
 package com.mycompany.proy_agroacora.Vista;
 
+import javax.swing.JButton;
+import javax.swing.JComboBox;
 import javax.swing.JFrame;
+import javax.swing.JTable;
+import javax.swing.JTextField;
 
 public class VenPedidos extends javax.swing.JFrame {
 //Ventana para manejar los pedidos realizados - Pendiente
@@ -8,6 +12,40 @@ public class VenPedidos extends javax.swing.JFrame {
     public VenPedidos() {
         initComponents();
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        TPedidos.setModel(new javax.swing.table.DefaultTableModel(
+                new Object[][]{},
+                new String[]{
+                    "ID", "Nombre", "DNI", "Teléfono", "Productos", "Fecha", "Dirección", "Total"
+                }
+        ));
+    }
+
+    public JTable getTPedidos() {
+        return TPedidos;
+    }
+
+    public JButton getBotFiltro() {
+        return BotFiltro;
+    }
+
+    public JComboBox<String> getCBFiltro() {
+        return CBFiltro;
+    }
+
+    public JTextField getTFFiltro() {
+        return TFFiltro;
+    }
+
+    public JButton getBotActualizar() {
+        return BotActualizar;
+    }
+
+    public JButton getBotVerRes() {
+        return BotVerRes;
+    }
+
+    public JButton getBotEliminar() {
+        return BotEliminar;
     }
 
     @SuppressWarnings("unchecked")
@@ -35,7 +73,7 @@ public class VenPedidos extends javax.swing.JFrame {
         jLabel1.setText("REGISTRO DE PEDIDOS");
 
         CBFiltro.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
-        CBFiltro.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Filtro" }));
+        CBFiltro.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "ID", "DNI", "Nombre" }));
 
         TFFiltro.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
 
@@ -53,6 +91,11 @@ public class VenPedidos extends javax.swing.JFrame {
 
         BotCerrar.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         BotCerrar.setText("Cerrar");
+        BotCerrar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BotCerrarActionPerformed(evt);
+            }
+        });
 
         TPedidos.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -133,6 +176,10 @@ public class VenPedidos extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void BotCerrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotCerrarActionPerformed
+        dispose();
+    }//GEN-LAST:event_BotCerrarActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BotActualizar;

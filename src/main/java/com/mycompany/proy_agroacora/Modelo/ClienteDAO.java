@@ -91,7 +91,7 @@ public class ClienteDAO {
 
     public boolean eliminar(int id) {
         String sql = "DELETE FROM cliente WHERE id_cliente=?";
-        try (PreparedStatement ps = con.prepareStatement(sql)) {
+        try (Connection con = ConexionBD.getConexion(); PreparedStatement ps = con.prepareStatement(sql)) {
             ps.setInt(1, id);
             return ps.executeUpdate() > 0;
         } catch (SQLException e) {
@@ -99,4 +99,26 @@ public class ClienteDAO {
             return false;
         }
     }
+
+    public Cliente buscarPorId(int id) {
+        String sql = "SELECT * FROM cliente WHERE id_cliente=?";
+        try (PreparedStatement ps = con.prepareStatement(sql)) {
+            ps.setInt(1, id);
+            ResultSet rs = ps.executeQuery();
+            if (rs.next()) {
+                return new Cliente(
+                        rs.getInt("id_cliente"),
+                        rs.getString("nombre"),
+                        rs.getString("dni"),
+                        rs.getString("telefono"),
+                        rs.getString("correo"),
+                        rs.getString("direccion")
+                );
+            }
+        } catch (SQLException e) {
+            System.err.println("Error buscando cliente por ID: " + e.getMessage());
+        }
+        return null;
+    }
+
 }

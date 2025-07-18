@@ -1,4 +1,7 @@
+com\mycompany\proy_agroacora\Controlador\ControlPedidos.class
 com\mycompany\proy_agroacora\Modelo\Pedido.class
+com\mycompany\proy_agroacora\Vista\VenEditarCliente.class
+com\mycompany\proy_agroacora\Vista\VenEditarCliente$2.class
 com\mycompany\proy_agroacora\Controlador\ControlIngreso.class
 com\mycompany\proy_agroacora\Controlador\ControlModPedido.class
 com\mycompany\proy_agroacora\Controlador\ControlAgregarCliente.class
@@ -8,6 +11,7 @@ com\mycompany\proy_agroacora\Vista\VenMenu$2.class
 com\mycompany\proy_agroacora\Modelo\DetallePedidoDAO.class
 com\mycompany\proy_agroacora\Modelo\ValidacionIngreso.class
 com\mycompany\proy_agroacora\Modelo\ConexionBD.class
+com\mycompany\proy_agroacora\Vista\VenPedidos$1.class
 com\mycompany\proy_agroacora\Vista\VenAgregarCliente.class
 com\mycompany\proy_agroacora\Vista\VenAgregarCliente$1.class
 com\mycompany\proy_agroacora\Modelo\GeneradorPDF.class
@@ -15,6 +19,8 @@ com\mycompany\proy_agroacora\Vista\VenMenu$1.class
 com\mycompany\proy_agroacora\Modelo\Usuario.class
 com\mycompany\proy_agroacora\Vista\VenMenu$3.class
 com\mycompany\proy_agroacora\Vista\VenModPedido.class
+com\mycompany\proy_agroacora\Controlador\ControlEditarCliente$1.class
+com\mycompany\proy_agroacora\Controlador\ControlPedidos$1.class
 com\mycompany\proy_agroacora\Modelo\Producto.class
 com\mycompany\proy_agroacora\Vista\VenPresentaci0n.class
 com\mycompany\proy_agroacora\Controlador\ControlClientes.class
@@ -24,11 +30,13 @@ com\mycompany\proy_agroacora\Vista\VenModAlmacen.class
 com\mycompany\proy_agroacora\Modelo\UsuarioDAO.class
 com\mycompany\proy_agroacora\Vista\VenPedidos.class
 com\mycompany\proy_agroacora\Modelo\Cliente.class
+com\mycompany\proy_agroacora\Controlador\ControlEditarCliente.class
 com\mycompany\proy_agroacora\Modelo\PedidoDAO.class
 com\mycompany\proy_agroacora\Vista\VenClientes.class
 com\mycompany\proy_agroacora\Vista\VenMenu$4.class
 com\mycompany\proy_agroacora\Vista\VenMenu.class
 com\mycompany\proy_agroacora\Controlador\ControlModPedido$1.class
+com\mycompany\proy_agroacora\Vista\VenEditarCliente$1.class
 com\mycompany\proy_agroacora\Vista\VenIngreso.class
 com\mycompany\proy_agroacora\Modelo\ClienteDAO.class
 com\mycompany\proy_agroacora\Modelo\DetallePedido.class

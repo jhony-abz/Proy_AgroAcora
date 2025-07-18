@@ -1,26 +1,29 @@
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\App.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Controlador\ControlAgregarCliente.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Controlador\ControlClientes.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Controlador\ControlIngreso.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Controlador\ControlModPedido.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Modelo\Cliente.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Modelo\ClienteDAO.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Modelo\ConexionBD.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Modelo\DetallePedido.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Modelo\DetallePedidoDAO.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Modelo\GeneradorPDF.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Modelo\Pedido.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Modelo\PedidoDAO.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Modelo\Producto.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Modelo\ProductoDAO.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Modelo\Usuario.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Modelo\UsuarioDAO.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Modelo\ValidacionIngreso.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Vista\VenAgregarCliente.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Vista\VenClientes.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Vista\VenIngreso.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Vista\VenMenu.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Vista\VenModAlmacen.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Vista\VenModPedido.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Vista\VenPedidos.java
-F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Proy_AgroAcora\src\main\java\com\mycompany\proy_agroacora\Vista\VenPresentaci0n.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\App.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Controlador\ControlAgregarCliente.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Controlador\ControlClientes.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Controlador\ControlEditarCliente.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Controlador\ControlIngreso.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Controlador\ControlModPedido.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Controlador\ControlPedidos.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Modelo\Cliente.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Modelo\ClienteDAO.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Modelo\ConexionBD.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Modelo\DetallePedido.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Modelo\DetallePedidoDAO.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Modelo\GeneradorPDF.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Modelo\Pedido.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Modelo\PedidoDAO.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Modelo\Producto.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Modelo\ProductoDAO.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Modelo\Usuario.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Modelo\UsuarioDAO.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Modelo\ValidacionIngreso.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Vista\VenAgregarCliente.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Vista\VenClientes.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Vista\VenEditarCliente.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Vista\VenIngreso.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Vista\VenMenu.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Vista\VenModAlmacen.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Vista\VenModPedido.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Vista\VenPedidos.java
+F:\Adam Datos\Universidad\Ciclo 8\Integrador Software I\Agroacora Jorge\Proy_AgroAcoraV3\src\main\java\com\mycompany\proy_agroacora\Vista\VenPresentaci0n.java

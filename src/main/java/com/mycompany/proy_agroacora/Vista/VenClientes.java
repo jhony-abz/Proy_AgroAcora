@@ -1,8 +1,6 @@
 package com.mycompany.proy_agroacora.Vista;
-
-import javax.swing.JButton;
 import javax.swing.JFrame;
-import javax.swing.JScrollPane;
+import javax.swing.JButton; 
 import javax.swing.JTable;
 
 public class VenClientes extends javax.swing.JFrame {
@@ -33,8 +31,8 @@ public class VenClientes extends javax.swing.JFrame {
         TableClientes.getColumnModel().getColumn(4).setPreferredWidth(80);
         TableClientes.getColumnModel().getColumn(5).setPreferredWidth(200);
     }
+    // Getters para que el controlador pueda acceder a los componentes
 
-    //Getter para manejar las funciones mediante el controlador ControlClientes
     public JTable getTableClientes() {
         return TableClientes;
     }
@@ -47,7 +45,26 @@ public class VenClientes extends javax.swing.JFrame {
         return BotAgregar;
     }
 
-    @SuppressWarnings("unchecked")
+    public JButton getBotEditar() {
+        return BotEditar;
+    }
+
+    public JButton getBotEliminar() {
+        return BotEliminar;
+    }
+
+    public JButton getBotFiltrar() {
+        return BotFiltrar;
+    }
+
+    public javax.swing.JTextField getTFFiltrar() {
+        return TFFiltrar;
+    }
+
+    public javax.swing.JComboBox<String> getCBoxFiltro() {
+        return CBoxFiltro;
+    }
+
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
@@ -71,7 +88,7 @@ public class VenClientes extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("LISTA DE CLIENTES");
 
-        CBoxFiltro.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "RUC/DNI" }));
+        CBoxFiltro.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "RUC/DNI", "Nombre", "Telefono" }));
 
         TFFiltrar.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
 

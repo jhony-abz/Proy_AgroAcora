@@ -12,7 +12,19 @@
         <maven.compiler.release>23</maven.compiler.release>
         <exec.mainClass>com.mycompany.proy_agroacora.Proy_AgroAcora</exec.mainClass>
     </properties>
-    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <mainClass>com.mycompany.proy_agroacora.App</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
     <!-- Aquí van las dependencias -->
     <dependencies>
         <dependency>

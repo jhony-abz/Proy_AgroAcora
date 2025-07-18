@@ -39,6 +39,7 @@ public class ControlModPedido {
 
     private void abrirVentanaPedidos() {
         VenPedidos ventanaPedidos = new VenPedidos();
+        new ControlPedidos(ventanaPedidos);
         ventanaPedidos.setVisible(true);
     }
 

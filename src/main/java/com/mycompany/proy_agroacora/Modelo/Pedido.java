@@ -7,18 +7,18 @@ public class Pedido {
     private int idPedido;
     private int idCliente;
     private Date fechaPedido;
-    private String estado;
+    // private String estado;
     private double total;
 
     public Pedido() {
 
     }
 
-    public Pedido(int idPedido, int idCliente, Date fechaPedido, String estado, double total) {
+    public Pedido(int idPedido, int idCliente, Date fechaPedido, double total) {
         this.idPedido = idPedido;
         this.idCliente = idCliente;
         this.fechaPedido = fechaPedido;
-        this.estado = estado;
+        // this.estado = estado;
         this.total = total;
     }
 
@@ -46,14 +46,14 @@ public class Pedido {
         this.fechaPedido = fechaPedido;
     }
 
-    public String getEstado() {
+    /*public String getEstado() {
         return estado;
     }
 
     public void setEstado(String estado) {
         this.estado = estado;
     }
-
+     */
     public double getTotal() {
         return total;
     }

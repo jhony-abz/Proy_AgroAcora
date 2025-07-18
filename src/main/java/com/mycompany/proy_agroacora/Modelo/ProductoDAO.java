@@ -74,4 +74,25 @@ public class ProductoDAO {
             return false;
         }
     }
+
+    public Producto buscarPorId(int id) {
+        String sql = "SELECT * FROM producto WHERE id_producto=?";
+        try (PreparedStatement ps = con.prepareStatement(sql)) {
+            ps.setInt(1, id);
+            ResultSet rs = ps.executeQuery();
+            if (rs.next()) {
+                return new Producto(
+                        rs.getInt("id_producto"),
+                        rs.getString("nombre"),
+                        rs.getString("descripcion"),
+                        rs.getDouble("precio"),
+                        rs.getInt("stock")
+                );
+            }
+        } catch (SQLException e) {
+            System.err.println("Error buscando producto por ID: " + e.getMessage());
+        }
+        return null;
+    }
+
 }

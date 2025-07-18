@@ -39,7 +39,7 @@ public class PedidoDAO {
                         rs.getInt("id_pedido"),
                         rs.getInt("id_cliente"),
                         rs.getDate("fecha"),
-                        rs.getString("estado"),
+                        //  rs.getString("estado"),
                         rs.getDouble("total")
                 );
                 lista.add(p);
@@ -62,4 +62,17 @@ public class PedidoDAO {
             return false;
         }
     }
+
+    public boolean eliminarPedido(int idPedido) {
+        String sql = "DELETE FROM pedido WHERE id_pedido = ?";
+        try (PreparedStatement ps = con.prepareStatement(sql)) {
+            ps.setInt(1, idPedido);
+            ps.executeUpdate();
+            return true;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
 }
